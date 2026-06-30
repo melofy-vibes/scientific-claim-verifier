@@ -1,0 +1,19 @@
+# NLI
+nli_confidence_threshold: 0.65
+nli_contradiction_similarity_threshold: 0.5
+
+# Retrieval
+retrieval_top_k: 20                    # fetch up to 20 papers from each source
+retrieval_relevance_min_similarity: 0.0  # don't filter by threshold
+retrieval_keep_top_n: 20               # keep top 20 after relevance sorting
+
+# Evidence ranking weights
+ranking_weight_relevance: 0.4
+ranking_weight_nli: 0.5
+ranking_weight_similarity: 0.1
+
+
+# Output
+max_supporting_findings: 5
+max_contradicting_findings: 5
+max_evidence_display: 20               # show top 20 unique papers in Evidence tab
