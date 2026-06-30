@@ -387,8 +387,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 🙏 Acknowledgements
-
 ### Models & Libraries
 - 🤗 [Hugging Face](https://huggingface.co/) – Transformer models and ecosystem
 - 🧠 [spaCy](https://spacy.io/) – Industrial-strength NLP
